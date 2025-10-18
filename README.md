@@ -14,27 +14,3 @@ The analysis is conducted within a Jupyter Notebook (`Battery_Performance_Analys
 * **Power & Voltage Correlation:** A scatter plot with a regression line is used to analyze the relationship between the battery's voltage and its power output, providing insights into performance correlation.
 * **Hysteresis Loop:** A Voltage vs. Capacity plot illustrates the hysteresis loop, which visually represents the difference in the charging and discharging voltage profiles and provides an indication of energy loss.
 * **Charge Factor Calculation:** A key output of the analysis is the **charge factor** (coulombic efficiency), which is calculated by comparing the total charge capacity put into the battery against the discharge capacity obtained from it. This metric quantifies the battery's efficiency for the given cycle.
-
-
-
-## How to Use 🚀
-
-To run this analysis on your own machine, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
-
-2.  **Install dependencies:** Ensure you have Python installed. Then, install the required libraries using pip.
-    ```bash
-    pip install pandas numpy seaborn matplotlib plotly openpyxl
-    ```
-
-3.  **Launch Jupyter Notebook:** Open the `Battery_Performance_Analysis (1).ipynb` file in a Jupyter environment.
-    ```bash
-    jupyter notebook "Battery_Performance_Analysis (1).ipynb"
-    ```
-
-4.  **Run the cells:** Execute the cells sequentially to load the data, perform the analysis, and generate the visualizations. Ensure the data file `kokum_data.xlsx` is in the correct path as specified in the notebook.
