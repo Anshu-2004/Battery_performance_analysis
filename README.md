@@ -6,7 +6,7 @@ This project provides a comprehensive analysis of the charge-discharge cycle per
 
 ## Features & Analysis 📊
 
-The analysis is conducted within a Jupyter Notebook (`Battery_Performance_Analysis (1).ipynb`) and leverages Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly to perform the following:
+The analysis is conducted within a Jupyter Notebook and leverages Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly to perform the following:
 
 * **Data Cleaning and Preparation:** The initial dataset is loaded, inspected for missing values, and cleaned to ensure accuracy for the subsequent analysis.
 * **Charge-Discharge Cycle Visualization:** A dual-axis plot visualizes the battery's **voltage (V)** and **current (A)** profiles over time, clearly showing the distinct phases of charging, discharging, and rest periods.
